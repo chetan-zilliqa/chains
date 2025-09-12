@@ -2274,7 +2274,7 @@
   "faucets": [],
   "infoURL": "https://hsk.xyz"
 }, {
-  "name": "ABEY Testnet",
+  "name": "Abey Testnet",
   "chainId": 178,
   "shortName": "abeyt",
   "networkId": 178,
@@ -2287,7 +2287,7 @@
   "faucets": ["https://testnet-faucet.abeychain.com"],
   "infoURL": "https://abey.com"
 }, {
-  "name": "ABEY Mainnet",
+  "name": "Abey Mainnet",
   "chainId": 179,
   "shortName": "abey",
   "networkId": 179,
@@ -8214,6 +8214,19 @@
   "rpc": ["https://rpc.bethscan.io"],
   "faucets": [],
   "infoURL": "https://rpc.bethscan.io"
+}, {
+  "name": "OpenLedger Mainnet",
+  "chainId": 1612,
+  "shortName": "open",
+  "networkId": 1612,
+  "nativeCurrency": {
+    "name": "Open",
+    "symbol": "OPEN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.openledger.xyz"],
+  "faucets": [],
+  "infoURL": "https://www.openledger.xyz"
 }, {
   "name": "Ethereum Inscription Mainnet",
   "chainId": 1617,
@@ -16095,14 +16108,14 @@
 }, {
   "name": "Plasma Mainnet",
   "chainId": 9745,
-  "shortName": "plasma-mainnet",
+  "shortName": "plasma",
   "networkId": 9745,
   "nativeCurrency": {
     "name": "Plasma",
     "symbol": "XPL",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.plasma.to"],
   "faucets": [],
   "infoURL": "https://plasma.to"
 }, {
@@ -16116,6 +16129,19 @@
     "decimals": 18
   },
   "rpc": ["https://testnet-rpc.plasma.to"],
+  "faucets": [],
+  "infoURL": "https://plasma.to"
+}, {
+  "name": "Plasma Devnet",
+  "chainId": 9747,
+  "shortName": "plasma-devnet",
+  "networkId": 9747,
+  "nativeCurrency": {
+    "name": "Devnet Plasma",
+    "symbol": "XPL",
+    "decimals": 18
+  },
+  "rpc": ["https://devnet-rpc.plasma.to"],
   "faucets": [],
   "infoURL": "https://plasma.to"
 }, {
